@@ -1,12 +1,12 @@
 # Threat Event (Unauthorized TOR Usage)
 **Unauthorized TOR Browser Installation and Use**
 
-## Steps the "Bad Actor" took Create Logs and IoCs:
+## Steps the "Bad Actor" took: Create Logs and IoCs:
 1. Download the TOR browser installer: https://www.torproject.org/download/
 2. Install it silently: ```tor-browser-windows-x86_64-portable-14.5.1.exe" /S```
 3. Opens the TOR browser from the folder on the desktop
 4. Connect to TOR and browse a few sites. For example:
-   - **WARNING: The links to onion sites change a lot and these have changed. However if you connect to Tor and browse around normal sites a bit, the necessary logs should still be created:**
+   - **WARNING: The links to onion sites change a lot, and these have changed. However, if you connect to Tor and browse around normal sites a bit, the necessary logs should still be created:**
    - Current Dread Forum: ```dreadytofatroptsdj6io7l3xptbet6onoyno2yv7jicoxknyazubrad.onion```
    - Dark Markets Forum: ```dreadytofatroptsdj6io7l3xptbet6onoyno2yv7jicoxknyazubrad.onion/d/DarkNetMarkets```
    - Current Elysium Market: ```elysiumutkwscnmdohj23gkcyp3ebrf4iio3sngc5tvcgyfp4nqqmwad.top/login```
@@ -44,7 +44,7 @@
 DeviceFileEvents
 | where FileName startswith "tor"
 
-// TOR Browser being silently installed
+// TOR Browser is being silently installed
 // Take note of two spaces before the /S (I don't know why)
 DeviceProcessEvents
 | where ProcessCommandLine contains "tor-browser-windows-x86_64-portable-14.5.1.exe"  /S"
