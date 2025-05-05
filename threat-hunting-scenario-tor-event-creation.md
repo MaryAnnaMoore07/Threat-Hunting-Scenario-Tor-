@@ -67,7 +67,7 @@ DeviceNetworkEvents
 | project Timestamp, DeviceName, InitiatingProcessAccountName, InitiatingProcessFileName, RemoteIP, RemotePort, RemoteUrl
 | order by Timestamp desc
 
-// User shopping list was created and, changed, or deleted
+// User shopping list was created, changed, or deleted
 DeviceFileEvents
 | where FileName contains "shopping-list.txt"
 ```
@@ -75,9 +75,9 @@ DeviceFileEvents
 ---
 
 ## Created By:
-- **Author Name**: Josh Madakor
-- **Author Contact**: https://www.linkedin.com/in/joshmadakor/
-- **Date**: August 31, 2024
+- **Author Name**: MaryAnna Moore
+- **Author Contact**: [https://www.linkedin.com/in/joshmadakor/](https://www.linkedin.com/in/maryanna-moore/)
+- **Date**: April 28th, 2025
 
 ## Validated By:
 - **Reviewer Name**: 
@@ -94,4 +94,4 @@ DeviceFileEvents
 ## Revision History:
 | **Version** | **Changes**                   | **Date**         | **Modified By**   |
 |-------------|-------------------------------|------------------|-------------------|
-| 1.0         | Initial draft                  | `September  6, 2024`  | `Josh Madakor`   
+| 1.0         | Initial draft                  | `May 5th, 2025`  | `MaryAnna Moore`   
