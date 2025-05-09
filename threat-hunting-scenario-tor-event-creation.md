@@ -77,12 +77,12 @@ DeviceFileEvents
 ## Created By:
 - **Author Name**: MaryAnna Moore
 - **Author Contact**: [https://www.linkedin.com/in/maryanna-moore/]
-- **Date**: April 28th, 2025
+- **Date**: April 2025
 
-## Validated By:
-- **Reviewer Name**: 
-- **Reviewer Contact**: 
-- **Validation Date**: 
+## Validated By: 
+- **Reviewer Name**: Josh Madakor
+- **Reviewer Contact**: [https://www.linkedin.com/in/joshmadakor/]
+- **Validation Date**: April 2025
 
 ---
 
