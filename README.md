@@ -1,8 +1,6 @@
 <img width="400" src="https://github.com/user-attachments/assets/44bac428-01bb-4fe9-9d85-96cba7698bee" alt="Tor Logo with the onion and a crosshair on it"/>
 
-# Threat Hunt Report: Unauthorized TOR Usage
-“Identified and contained unauthorized TOR traffic in simulated
-enterprise environment, preventing potential exfiltration.”
+# Threat Hunt Report: Identified and contained unauthorized TOR traffic in simulated enterprise environment, preventing potential exfiltration
 - [Scenario Creation](https://github.com/MaryAnnaMoore07/Threat-Hunting-Scenario-Tor-/blob/main/threat-hunting-scenario-tor-event-creation.md)
 
 ## Platforms and Languages Leveraged
